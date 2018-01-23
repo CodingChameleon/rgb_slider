@@ -4,7 +4,6 @@ function setup(){
     createCanvas(600,400);
     background(0);
     textSize(100);
-    text('RGB' rojoValue, verdeValue, azulValue,300,200);
     
     redSlider = createSlider(0,255,0);
     redSlider.position(20,20);
