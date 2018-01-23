@@ -21,10 +21,4 @@ function draw(){
     azulValue = blueSlider.value();
     
     background(rojoValue, verdeValue, azulValue);
-    
-    if(rojoValue && verdeValue && azulValue < 100){
-        fill(255);
-    }else{
-        fill(0);
-    }
 }
